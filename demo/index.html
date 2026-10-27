@@ -1,0 +1,55 @@
+<!doctype html><html lang="ru"><meta charset="utf-8"><title>Генератор уведомлений · реальный результат</title><style>body{font:16px system-ui;background:#f4f6fa;color:#172a45;margin:40px;max-width:1200px}h1{font-size:34px}section{background:white;border:1px solid #d8e1ed;padding:24px;margin:24px 0;border-radius:12px}table{border-collapse:collapse;width:100%;font-size:13px}td,th{border:1px solid #d8e1ed;padding:9px;text-align:left}a{color:#125bc1}aside{background:#fff5d8;padding:14px}</style><h1>Excel → уведомления Word</h1><p>Вымышленные договоры · 3 строки → 2 документа · локальная обработка</p><aside>Ниже — текст и таблицы, прочитанные из фактически созданных DOCX. Это структурный просмотр, не изображение вёрстки Word. LibreOffice в проверочном окружении отсутствует; внешний вид DOCX требует проверки в Word/LibreOffice.</aside><section><h2>Входной Excel</h2><a href="data.xlsx">Скачать data.xlsx</a> · <a href="template.docx">Шаблон Word</a><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>№ уведомления</th>
+      <th>УПД</th>
+      <th>Дата документа</th>
+      <th>Сумма документа</th>
+      <th>№ спецификации</th>
+      <th>№ договора</th>
+      <th>Примечание</th>
+      <th>Дата транша</th>
+      <th>Дата оплаты</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>101</td>
+      <td>000042</td>
+      <td>2025-12-10</td>
+      <td>1200.50</td>
+      <td>СП-1</td>
+      <td>Договор DEMO-1</td>
+      <td></td>
+      <td>2025-12-15</td>
+      <td>2026-01-15</td>
+    </tr>
+    <tr>
+      <td>101</td>
+      <td>43</td>
+      <td>2025-12-11</td>
+      <td>300.00</td>
+      <td>СП-2</td>
+      <td>Договор DEMO-1</td>
+      <td></td>
+      <td>2025-12-15</td>
+      <td>2026-01-15</td>
+    </tr>
+    <tr>
+      <td>102</td>
+      <td>100</td>
+      <td>2025-12-12</td>
+      <td>55.25</td>
+      <td>СП-3</td>
+      <td>Договор DEMO-2</td>
+      <td></td>
+      <td>2025-12-16</td>
+      <td>2026-01-16</td>
+    </tr>
+  </tbody>
+</table></section><section><h2>Уведомление_№101</h2><a href="Уведомление_№101.docx">Скачать фактический DOCX</a><p>Уведомление по договору Договор DEMO-1.</p><table><tr><td>Исх. №101 от «15» декабря 2025 г.</td></tr></table><table><tr><td>№</td><td>УПД</td><td>Дата документа</td><td>Сумма</td><td>Спецификация</td><td>Дата оплаты</td></tr><tr><td>1</td><td>000042</td><td>10.12.2025</td><td>1 200.50</td><td>СП-1</td><td>15.01.2026</td></tr><tr><td>2</td><td>000043</td><td>11.12.2025</td><td>300.00</td><td>СП-2</td><td>15.01.2026</td></tr><tr><td></td><td></td><td>Итого:</td><td>1 500.50</td><td></td><td></td></tr></table></section><section><h2>Уведомление_№102</h2><a href="Уведомление_№102.docx">Скачать фактический DOCX</a><p>Уведомление по договору Договор DEMO-2.</p><table><tr><td>Исх. №102 от «16» декабря 2025 г.</td></tr></table><table><tr><td>№</td><td>УПД</td><td>Дата документа</td><td>Сумма</td><td>Спецификация</td><td>Дата оплаты</td></tr><tr><td>1</td><td>000100</td><td>12.12.2025</td><td>55.25</td><td>СП-3</td><td>16.01.2026</td></tr><tr><td></td><td></td><td>Итого:</td><td>55.25</td><td></td><td></td></tr></table></section><section><h2>Отчёт генератора</h2><pre>Дата: 27.10.2026 16:55:24
+Создано уведомлений: 2
+
+№101 от 15.12.2025; договор: Договор DEMO-1; документов: 2; сумма: 1 500.50
+№102 от 16.12.2025; договор: Договор DEMO-2; документов: 1; сумма: 55.25
+</pre></section></html>
