@@ -2,6 +2,6 @@
 __pycache__/
 *.py[cod]
 .env
-examples/generated/
+**/examples/generated/
 notifications/
 report.txt
